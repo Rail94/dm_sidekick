@@ -28,13 +28,13 @@
     <div class="col-12 col-md-6 col-lg-3">
         <div class="card shadow mb-3 mb-sm-3 mb-md-3 mb-lg-3">
             <div class="card-body">
-                <a href="#" class="text-decoration-none" style="color: black;">
+                <a href="{{ url_for('critical_failures.critical_failures') }}" class="text-decoration-none"
+                    style="color: black;">
                     <div class="text-center">
-                        <img src="{{ url_for('static', filename='img/card_cover.png') }}" style="width: 18%;"
-                            alt="fail">
+                        <img src="{{ url_for('static', filename='img/fumble.png') }}" style="width: 30%;" alt="fail">
                     </div>
                     <div class="text-center mt-3">
-                        <div><b>Critical Failures (Working)</b></div>
+                        <div><b>Critical Fumbles</b></div>
                     </div>
                 </a>
             </div>
@@ -52,6 +52,22 @@
                     </div>
                     <div class="text-center mt-3">
                         <div><b>Deck of Illusions</b></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card shadow mb-3 mb-sm-3 mb-md-3 mb-lg-3">
+            <div class="card-body">
+                <a href="#" class="text-decoration-none" style="color: black;">
+                    <div class="text-center">
+                        <img src="{{ url_for('static', filename='img/cards_images/Cover.png') }}" style="width: 18%;"
+                            alt="deck of illusions">
+                    </div>
+                    <div class="text-center mt-3">
+                        <div><b>Jumps Calculator (working)</b></div>
                     </div>
                 </a>
             </div>

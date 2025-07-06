@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <h1 class="mb-5">{{ title }}</h1>
+</div>
+
+<div class="text-center mb-3">
+    <h3>Generate an effect</h3>
+</div>
+
+<div class="d-flex justify-content-center mb-5">
+    <a href="{{ url_for('critical_failures.fumble_effect', type='melee') }}" class="btn btn-danger">Melee</a>
+    <a href="{{ url_for('critical_failures.fumble_effect', type='ranged') }}" class="btn btn-success mx-3">Ranged</a>
+    <a href="#" class="btn btn-primary">Magic</a>
+
+</div>
+
+<div class="row">
+    {% if not effect_id %}
+    <div class="card">
+        <div class="card-header">
+
+        </div>
+        <div class="card-body">
+            <figure>
+                <blockquote class="blockquote text-center">
+                    <p>Select a type</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    </cite>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    {% else %}
+    <div class="card">
+        <div class="card-header">
+            {{ effect_id }}. {{ effect_title }}
+        </div>
+        <div class="card-body">
+            <figure>
+                <blockquote class="blockquote">
+                    <p>{{ effect_description | safe }}</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    {{ effect_type }}</cite>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+{% endblock %}
