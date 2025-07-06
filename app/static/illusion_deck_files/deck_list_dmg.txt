@@ -1,0 +1,35 @@
+id,card
+1,Adult Red Dragon
+2,Archmage
+3,Assassin
+4,Bandit Captain
+5,Beholder
+6,Berserker
+7,Bugbear Warrior
+8,Cloud Giant
+9,Druid
+10,Erinyes
+11,Ettin
+12,Fire Giant
+13,Frost Giant
+14,Gnoll Warrior
+15,Goblin Warrior
+16,Guardian Naga
+17,Hill Giant
+18,Hobgoblin Warrior
+19,Incubus
+20,Iron Golem
+21,Knight
+22,Kobold Warrior
+23,Lich
+24,Medusa
+25,Night Hag
+26,Ogre
+27,Oni
+28,Priest
+29,Succubus
+30,Troll
+31,Veteran Warrior
+32,Wyvern
+33,Card Drawer
+34,Card Drawer

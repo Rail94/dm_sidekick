@@ -1,0 +1,43 @@
+number,name
+1,Orco
+2,Ogre  
+3,Non-morto  
+4,Golem di ferro  
+5,Golem d’argilla  
+6,Golem di pietra  
+7,Goblin  
+8,Lich  
+9,Gigante delle pietre  
+10,Gigante del fuoco  
+11,Gigante delle nuvole  
+12,Gigante del gelo  
+13,Verme del ghiaccio  
+14,Drow (Guerriero)  
+15,Drow (Arciere)  
+16,Drow (Mago)  
+17,Drow (Sacerdotessa)  
+18,Elementale del fuoco  
+19,Elementale dell’acqua  
+20,Elementale del vento  
+21,Elementale della terra  
+22,Cockatrice  
+23,Imp  
+24,Mind Flayer  
+25,Mimic  
+26,Tirannosauro  
+27,Dretch  
+28,Slaad della morte  
+29,Verme del deserto  
+30,Treant  
+31,Licantropo  
+32,Worg  
+33,Nano guerriero  
+34,Dragonide  
+35,Hydra  
+36,Goristro  
+37,Verme Grick  
+38,Spettro  
+39,Djinni  
+40,Viverna  
+41,Berserker  
+42,Evocatore

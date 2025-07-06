@@ -1,0 +1,175 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-center">
+    <p>Card artwork credits go to <a href="https://www.etsy.com/it/shop/VyseriArt" class="text-decoration-none"
+            target="_blank">VyseriArt</a></p>
+</div>
+
+<div class="row">
+    <h1 class="mb-5">{{ title }}</h1>
+</div>
+
+
+<div class="d-flex justify-content-center">
+    <div class="mb-3 mb-sm-3 mb-md-3 mb-lg-3">
+        <div>
+            <a href="{{ url_for('deck_of_illusions.draw_card') }}" class="text-decoration-none" style="color: black;">
+                <div class="text-center">
+                    {% if picked_card and picked_card != "\nNo cards remaining!\n" %}
+                    <div class="flip-card mx-auto" style="width: 200px; height: 300px; margin-bottom: 2rem;">
+                        <div class="flip-card-inner" id="cardFlip">
+                            <div class="flip-card-front">
+                                <div class="card h-100">
+                                    <img src="{{ url_for('static', filename='img/cards_images/Cover.png') }}"
+                                        class="card-img-top" alt="cover">
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card h-100">
+                                    <img src="{{ url_for('static', filename='img/cards_images/' ~ picked_card ~ '.png') }}"
+                                        class="card-img-top" alt="picked card">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% else %}
+                    <img src="{{ url_for('static', filename='img/cards_images/Cover.png') }}" style="width: 200px;"
+                        alt="cover">
+                    {% endif %}
+
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="text-center mt-3">
+    {% if picked_card == "\nNo cards remaining!\n" %}
+    <div><b>No cards remaining!</b></div>
+    {% else %}
+    <div><b>Tap to pick a card</b></div>
+    {% endif %}
+</div>
+
+<div class="d-flex justify-content-center mt-5">
+    <h2>Deck options</h2>
+</div>
+
+<div class="row mb-5 d-flex justify-content-center">
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card shadow mb-3 mb-sm-3 mb-md-3 mb-lg-4">
+            <div class="card-body">
+                <div class="text-center">
+                    <img src="{{ url_for('static', filename='img/cards.svg') }}" style="width: 30%;" alt="cards">
+                </div>
+                <div class="dropdown">
+
+                </div>
+                <div class="text-center mt-3">
+                    {% if total_cards == 1 %}
+                    <div class="mb-3"><b>Remain {{ total_cards }} card!</b></div>
+                    {% else %}
+                    <div class="mb-3"><b>Remain {{ total_cards }} cards!</b></div>
+                    {% endif %}
+
+                    <div class="accordion" id="remainingCardsAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Show Remaining Cards
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#remainingCardsAccordion">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        {% for figure in remaining_cards %}
+                                        <li class="list-group-item">{{ figure.card }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card shadow mb-3 mb-sm-3 mb-md-3 mb-lg-4">
+            <div class="card-body">
+                <div class="text-center">
+                    <img src="{{ url_for('static', filename='img/playing-card.svg') }}" style="width: 30%;"
+                        alt="playing card">
+                </div>
+                <div class="text-center mt-3">
+                    <div class="mb-3"><b>Restore used cards</b></div>
+                    <div class="accordion mt-4" id="usedCardsAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="usedCardsHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#usedCardsCollapse" aria-expanded="false"
+                                    aria-controls="usedCardsCollapse">
+                                    Show Used Cards
+                                </button>
+                            </h2>
+                            <div id="usedCardsCollapse" class="accordion-collapse collapse"
+                                aria-labelledby="usedCardsHeading" data-bs-parent="#usedCardsAccordion">
+                                <div class="accordion-body">
+                                    {% for used in used_cards %}
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <span>{{ used.card }}</span>
+                                        <a href="{{ url_for('deck_of_illusions.restore', id=used.id) }}"
+                                            class="btn btn-outline-danger btn-sm">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card shadow mb-3 mb-sm-3 mb-md-3 mb-lg-4">
+            <div class="card-body">
+                <div class="text-center">
+                    <img src="{{ url_for('static', filename='img/card-deck.svg') }}" style="width: 30%;" alt="deck">
+                </div>
+                <div class="text-center mt-3">
+                    <div><b>Generate deck</b></div>
+                </div>
+                <div class="d-flex justify-content-center mt-2">
+                    <a href="{{ url_for('deck_of_illusions.generate', option=0) }}" class="btn btn-primary me-2">Full
+                        Deck</a>
+                    <a href="{{ url_for('deck_of_illusions.generate', option=1) }}" class="btn btn-primary">Incomplete
+                        Deck</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="{{ url_for('static', filename='js/flip-card.js') }}"></script>
+
+{% endblock %}

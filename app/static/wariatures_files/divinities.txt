@@ -1,0 +1,7 @@
+number,name
+1,Eldr
+2,Vind
+3,Saer
+4,Jord
+5,Sunna
+6,Mani

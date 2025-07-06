@@ -1,0 +1,29 @@
+body {
+    background-image: url('/static/img/page-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.imfell {
+    font-family: 'IM Fell English SC', serif;
+}
+
+.small-input {
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.btn-sum {
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: red;
+    color: white;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}

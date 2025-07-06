@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+<h1 class="mb-5">{{ title }}</h1>
+
+<h2 class="mb-3">Combat Tools</h2>
+<div class="row">
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card shadow mb-3 mb-sm-3 mb-md-3 mb-lg-3">
+            <div class="card-body">
+                <a href="{{ url_for('initiative.initiative') }}" class="text-decoration-none" style="color: black;">
+                    <div class="text-center">
+                        <img src="{{ url_for('static', filename='img/d20.webp') }}"
+                            style="width: 30%; border-top-left-radius: 20px; border-top-right-radius: 20px;"
+                            alt="roll initiative">
+                    </div>
+                    <div class="text-center mt-3">
+                        <div><b>Initiative Tracker</b></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card shadow mb-3 mb-sm-3 mb-md-3 mb-lg-3">
+            <div class="card-body">
+                <a href="#" class="text-decoration-none" style="color: black;">
+                    <div class="text-center">
+                        <img src="{{ url_for('static', filename='img/card_cover.png') }}" style="width: 18%;"
+                            alt="fail">
+                    </div>
+                    <div class="text-center mt-3">
+                        <div><b>Critical Failures (Working)</b></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card shadow mb-3 mb-sm-3 mb-md-3 mb-lg-3">
+            <div class="card-body">
+                <a href="{{ url_for('deck_of_illusions.deck_of_illusions') }}" class="text-decoration-none"
+                    style="color: black;">
+                    <div class="text-center">
+                        <img src="{{ url_for('static', filename='img/cards_images/Cover.png') }}" style="width: 18%;"
+                            alt="deck of illusions">
+                    </div>
+                    <div class="text-center mt-3">
+                        <div><b>Deck of Illusions</b></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<h2 class="mt-5 mb-3">Roleplaying Tools</h2>
+<div class="row">
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card shadow mb-3 mb-sm-3 mb-md-3 mb-lg-3">
+            <div class="card-body">
+                <a href="#" class="text-decoration-none" style="color: black;">
+                    <div class="text-center">
+                        <img src="{{ url_for('static', filename='img/card_cover.png') }}" style="width: 18%;"
+                            alt="miniature">
+                    </div>
+                    <div class="text-center mt-3">
+                        <div><b>Calculate Probabilities (Working)</b></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card shadow mb-3 mb-sm-3 mb-md-3 mb-lg-3">
+            <div class="card-body">
+                <a href="#" class="text-decoration-none" style="color: black;">
+                    <div class="text-center">
+                        <img src="{{ url_for('static', filename='img/card_cover.png') }}" style="width: 18%;"
+                            alt="miniature">
+                    </div>
+                    <div class="text-center mt-3">
+                        <div><b>Name Generator (Working)</b></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card shadow mb-3 mb-sm-3 mb-md-3 mb-lg-3">
+            <div class="card-body">
+                <a href="{{ url_for('wariatures.wariatures') }}" class="text-decoration-none" style="color: black;">
+                    <div class="text-center">
+                        <img src="{{ url_for('static', filename='img/miniature.png') }}" style="width: 31%;"
+                            alt="miniature">
+                    </div>
+                    <div class="text-center mt-3">
+                        <div><b>Wariatures Unpack</b></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+{% endblock %}

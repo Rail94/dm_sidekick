@@ -1,0 +1,21 @@
+number,name
+1,Drago Rosso
+2,Drago Nero
+3,Drago Verde
+4,Drago Blu
+5,Drago Bianco
+6,Dracolich
+7,Drago dorato Dreyrgull
+8,Generale dei paladini Beraht Rainherz
+9,Re dei nani Grimm Rockbeard
+10,Arcimago Vell
+11,Comandante di Mecharaish Shert
+12,Elyr Frodi
+13,Spirito di Vell
+14,Kraken
+15,Lyur Scagliabronzea
+16,Balor
+17,Signore dei demoni Rurat
+18,Arcidruido Eltur
+19,Arcimago del fuoco Foyur
+20,Tarrasque

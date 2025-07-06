@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <h1 class="mb-5">{{ title }}</h1>
+</div>
+
+<form id="initiative-form" class="mb-4">
+    <div class="mb-3">
+        <label for="name" class="form-label fw-bold">Name</label>
+        <input type="text" class="form-control" id="name" name="name" maxlength="15" required>
+    </div>
+    <div class="mb-3">
+        <label for="bonus-initiative" class="form-label fw-bold">Bonus Initiative</label>
+        <input type="number" class="form-control" id="bonus-initiative" name="bonus-initiative" placeholder="0">
+    </div>
+    <div class="mb-3">
+        <label for="quantity" class="form-label fw-bold">Quantity</label>
+        <input type="number" min="1" max="100" class="form-control" id="quantity" name="quantity" value="1" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<div class="row">
+    <table id="initiative-table" class="table">
+        <thead>
+            <tr>
+                <th class="bg-dark text-white">Initiative</th>
+                <th class="bg-dark text-white">Name</th>
+                <th class="bg-dark text-white">Damages</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+
+<script src="{{ url_for('static', filename='js/initiative.js') }}"></script>
+{% endblock %}

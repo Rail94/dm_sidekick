@@ -1,0 +1,13 @@
+number,name
+1,Guerriero
+2,Paladino
+3,Ladro
+4,Mago
+5,Druido
+6,Barbaro
+7,Bardo
+8,Ranger
+9,Stregone
+10,Monaco
+11,Chierico
+12,Warlock
