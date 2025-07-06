@@ -5,19 +5,21 @@ deck_of_illusions_bp = Blueprint('deck_of_illusions', __name__)
 
 @deck_of_illusions_bp.route('/deck_of_illusions')
 def deck_of_illusions():
-    picked_card = request.args.get('picked_card')
+    try:
+        picked_card = request.args.get('picked_card')
 
-    # Count total number of cards
-    total_cards = show_deck()
+        # Count total number of cards
+        total_cards = show_deck()
 
-    # Get all remaining cards
-    remaining_cards = get_cards()
+        # Get all remaining cards
+        remaining_cards = get_cards()
 
-    # Get used cards
-    used_cards = get_used_list()
+        # Get used cards
+        used_cards = get_used_list()
 
-    return render_template('deck_of_illusions.html', title="Deck of illusions", total_cards=total_cards, remaining_cards=remaining_cards, picked_card=picked_card, used_cards=used_cards)
-
+        return render_template('deck_of_illusions.html', title="Deck of illusions", total_cards=total_cards, remaining_cards=remaining_cards, picked_card=picked_card, used_cards=used_cards)
+    except Exception as e:
+        return render_template('deck_of_illusions.html', title="Deck of illusions")
 @deck_of_illusions_bp.route('/pick_card')
 def draw_card():
     picked_card = pick_card()
