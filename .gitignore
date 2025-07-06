@@ -2,3 +2,4 @@ app/static/illusion_deck_files/deck_list.txt
 app/static/illusion_deck_files/used_cards.txt
 app/static/illusion_deck_files/deck_list_dmg.txt
 app/static/illusion_deck_files/backup_list_dmg.txt
+run.py

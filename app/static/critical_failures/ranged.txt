@@ -1,0 +1,21 @@
+id;type;effect;description
+1;Ranged;BALANCE LOST;You fall Prone.
+2;Ranged;BUTTERFINGERS;You throw your weapon 10 ft. in a random direction ({{ direction }}).
+3;Ranged;EMBARRASSED;You receive a -2 penalty to attack rolls against a target until you successfully hit a target with an attack.
+4;Ranged;PULLED MUSCLE;You have disadvantage on attack rolls and ability checks.
+5;Ranged;FATIGUED;You gain one level of Exhaustion.
+6;Ranged;EXCESSIVE EFFORT;You have the Stunned condition until the end of your next turn.
+7;Ranged;ITEM BROKE;Your non magical weapon/implement is broken.
+8;Ranged;STRING SNAP;The string or mechanism of your weapon breaks. You must spend an action to fix it.
+9;Ranged;BAD AIM;You hit an ally. If this action is impossible, your original target makes an attack roll against you.
+10;Ranged;CRITICAL COUNTER;The target critically hits you with an attack. If this action is impossible, your original target makes a critical hit against you on the next attack.
+11;Ranged;FRIENDLY FIRE;You critically hit an ally. If this action is impossible, your original target makes a critical hit against you on the next attack.
+12;Ranged;SUICIDE STRIKE;You critically hit yourself with same weapon/implement used to attack.
+13;Ranged;ANKLE TWIST;You twist your ankle and have halved movement speed for {{ d4_sum }} round/s.
+14;Ranged;REFLECTION;You are Blinded by the reflected light or energy from your own weapon until the end of your next turn.
+15;Ranged;FEAR;After you miss you have the Frightened condition toward the target for {{ d4 }} round/s.
+16;Ranged;POWERFUL COUNTERATTACK;The target makes an attack roll against you with maximized damage. If this action is impossible, the target has advantage on the next attack roll against you.
+17;Ranged;POWERFUL CRIT;The target makes an critical hit against you with maximized damage. If this action is impossible, your original target makes a maximized critical hit against you on the next attack.
+18;Ranged;STUCK;Your foot is stuck in a hole and have the Restrained condition until the beginning of your next turn.
+19;Ranged;FALL;You fall Prone and bang your head. You also have the Incapacitated condition until the end of your next turn.
+20;Ranged;HARD FALL;You fall Prone and bang your head. You also have the Unconscious condition for {{ d4 }} round/s.
