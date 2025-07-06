@@ -1,32 +1,24 @@
 id,card
-1,Dragon
 2,Knight
 3,Druid
-4,Cloud Giant
 5,Ettin
 6,Bugbear
 7,Goblin
-8,Mage
 9,Ogre Mage
-10,Gnoll
 11,Kobold
 12,Lich
 13,Priest
 14,Medusa
-15,Veteran
 16,Frost Giant
 17,Troll
 18,Hobgoblin
 19,Iron Golem
 20,Bandits
 21,Berserker
-22,Hill Giant
-23,Ogre
 24,Orc
 25,Goblin
 26,You
 27,Succubus
-28,Beholder
 29,Assassin
 30,Erinyes
 31,Night Hag
@@ -37,4 +29,3 @@ id,card
 36,Demon
 37,Ranger
 38,Wizard
-39,Bard

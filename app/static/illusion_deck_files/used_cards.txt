@@ -1,1 +1,10 @@
 id,card
+15,Veteran
+4,Cloud Giant
+23,Ogre
+1,Dragon
+39,Bard
+10,Gnoll
+22,Hill Giant
+8,Mage
+28,Beholder
