@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <h1 class="mb-5">{{ title }}</h1>
+</div>
+
+<div class="text-center mb-3">
+    <h3>Generate a chance</h3>
+</div>
+
+<div class="d-flex justify-content-center mb-5">
+    <a href="{{ url_for('probabilities.calculate_probability', difficulty='easy') }}" class="btn btn-danger">Easy</a>
+    <a href="{{ url_for('probabilities.calculate_probability', difficulty='medium') }}"
+        class="btn btn-success mx-3">Medium</a>
+    <a href="{{ url_for('probabilities.calculate_probability', difficulty='hard') }}"
+        class="btn btn-primary me-3">Hard</a>
+    <a href="{{ url_for('probabilities.calculate_probability', difficulty='impossible') }}"
+        class="btn btn-warning">Impossible</a>
+
+</div>
+
+<div class="row">
+    {% if not difficulty %}
+    <div class="card">
+        <div class="card-body text-center">
+            <figure>
+                <blockquote class="blockquote">
+                    <p>Select a difficulty</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    </cite>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    {% else %}
+    <div class="card">
+        <div class="card-body text-center">
+            <figure>
+                <blockquote class="blockquote">
+                    <p>{{ result | safe}}</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    {{ difficulty }}</cite>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+{% endblock %}

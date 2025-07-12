@@ -41,7 +41,6 @@ def fumble_effect(type):
             description=description
         ))
     except Exception as e:
-        print(e)
         return redirect(url_for(
             'critical_failures.critical_failures',
             id="0",
