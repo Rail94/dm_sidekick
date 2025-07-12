@@ -14,7 +14,8 @@
 <div class="d-flex justify-content-center mb-5">
     <a href="{{ url_for('critical_failures.fumble_effect', type='melee') }}" class="btn btn-danger">Melee</a>
     <a href="{{ url_for('critical_failures.fumble_effect', type='ranged') }}" class="btn btn-success mx-3">Ranged</a>
-    <a href="#" class="btn btn-primary">Magic</a>
+    <a href="{{ url_for('critical_failures.fumble_effect', type='magic') }}" class="btn btn-primary me-3">Magic</a>
+    <a href="{{ url_for('critical_failures.fumble_effect', type='critical') }}" class="btn btn-warning">Critical</a>
 
 </div>
 

@@ -1,1 +1,22 @@
-id,type,effect
+id;effect;description
+1;BALANCE LOST;You fall Prone and use all your remaining movement.
+2;BUTTERFINGERS;Your arcane focus slips from your hand 15 ft. in a random direction ({{ direction }}).
+3;EMBARRASSED;You receive a -2 penalty to attack rolls against a target until you successfully hit a target with an attack.
+4;POLYMORPH;You accidentally cast polymorph on a random ally within 60 ft., which transforms into a {{ animal }}. If not allies in area, target yourself (Wisdom Saving Throw: {{ saving_throw }}).
+5;FATIGUED;You gain one level of Exhaustion.
+6;TELEPORT ISSUE;You teleport 15ft. in a random direction ({{ direction }}). If you arrive in a space occupied by a creature or completely filled by one or more objects, you take {{ 4d6 }} Force damage, and the teleportation fails.
+7;ITEM BROKE;Your arcane focus is broken. If it's a magical item its energy explodes, the spell targets yourself and cannot use the item effects until next dawn.
+8;DISTRACTED;You distract and lose concentration. If you were not mantaining concentration, reroll the effect.
+9;BAD AIM;You target an ally. If not allies in area, your spell targets yourself.
+10;MISFIRED SHOT;Your spell targets yourself.
+11;FRIENDLY FIRE;You critically hit an ally. If not allies in area, your spell targets yourself with a critical hit.
+12;SUICIDE STRIKE;Your spell targets yourself with a critical hit and maximized damages.
+13;ANKLE TWIST;You twist your ankle and have halved movement speed until Short Rest.
+14;DUST;Something gets into your eye and have the Blinded condition until the end of your next turn.
+15;FEAR;After you miss, you have the Frightened condition toward the target for {{ d4 }} round/s.
+16;CONFUSED;Your spell releases chaotic energy and you're under the effect of Confusion spell.
+17;TOO MUCH ENERGY;You channel excessive energy and damage your arcane focus, giving to it permanent -1 to attack rolls, damages and saving throws.
+18;STUCK;Your foot is stuck in a hole and have the Restrained condition until the beginning of your next turn.
+19;FALL;You fall Prone and bang your head. You also have the Incapacitated condition until the end of your next turn.
+20;HARD FALL;You fall Prone and throw your helded items 15 ft. in a random direction ({{ direction }}).
+21;CURE MAGIC;Your spell heals instead of doing damage.

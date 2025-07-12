@@ -1,21 +1,21 @@
-id;type;effect;description
-1;Melee;BALANCE LOST;You fall Prone.
-2;Melee;BUTTERFINGERS;You throw your weapon 10 ft. in a random direction ({{ direction }}).
-3;Melee;EMBARRASSED;You receive a -2 penalty to attack rolls against a target until you successfully hit a target with an attack.
-4;Melee;PULLED MUSCLE;You have disadvantage on attack rolls and ability checks.
-5;Melee;FATIGUED;You gain one level of Exhaustion.
-6;Melee;EXCESSIVE EFFORT;You have the Stunned condition until the end of your next turn.
-7;Melee;ITEM BROKE;Your non magical weapon/implement is broken.
-8;Melee;COUNTER ATTACKED;The target makes an attack roll against you. If this action is impossible, the target has advantage on the next attack roll against you.
-9;Melee;BAD AIM;You hit an ally. If this action is impossible, your original target makes an attack roll against you.
-10;Melee;CRITICAL COUNTER;The target critically hits you with an attack. If this action is impossible, your original target makes a critical hit against you on the next attack.
-11;Melee;FRIENDLY FIRE;You critically hit an ally. If this action is impossible, your original target makes a critical hit against you on the next attack.
-12;Melee;SUICIDE STRIKE;You critically hit yourself with same weapon/implement used to attack.
-13;Melee;ANKLE TWIST;You twist your ankle and have halved movement speed for {{ d4_sum }} round/s.
-14;Melee;REFLECTION;You are Blinded by the reflected light or energy from your own weapon until the end of your next turn.
-15;Melee;FEAR;After you miss you have the Frightened condition toward the target for {{ d4 }} round/s.
-16;Melee;POWERFUL COUNTERATTACK;The target makes an attack roll against you with maximized damage. If this action is impossible, the target has advantage on the next attack roll against you.
-17;Melee;POWERFUL CRIT;The target makes an critical hit against you with maximized damage. If this action is impossible, your original target makes a maximized critical hit against you on the next attack.
-18;Melee;STUCK;Your foot is stuck in a hole and have the Restrained condition until the beginning of your next turn.
-19;Melee;FALL;You fall Prone and bang your head. You also have the Incapacitated condition until the end of your next turn.
-20;Melee;HARD FALL;You fall Prone and bang your head. You also have the Unconscious condition for {{ d4 }} round/s.
+id;effect;description
+1;BALANCE LOST;You fall Prone and use all your remaining movement.
+2;BUTTERFINGERS;Your weapon slips from your hand 15 ft. in a random direction ({{ direction }}).
+3;EMBARRASSED;You receive a -2 penalty to attack rolls against a target until you successfully hit a target with an attack.
+4;PULLED MUSCLE;You have disadvantage on attack rolls and ability checks until Short Rest.
+5;FATIGUED;You gain one level of Exhaustion.
+6;EXCESSIVE EFFORT;You have -2 penalty on attack rolls and damages until Short Rest.
+7;ITEM BROKE;Your non magical weapon/implement is broken.
+8;COUNTER ATTACKED;The target moves toward you and makes an attack roll.
+9;BAD AIM;You hit an ally. If this action is impossible, The target moves toward you and makes an attack roll.
+10;CRITICAL COUNTER;The target moves toward you and makes a critical hit.
+11;FRIENDLY FIRE;You critically hit an ally. If this action is impossible, The target moves toward you and makes a critical hit.
+12;SUICIDE STRIKE;You critically hit yourself with same weapon/implement used to attack.
+13;ANKLE TWIST;You twist your ankle and have halved movement speed until Short Rest.
+14;DUST;Something gets into your eye and have the Blinded condition until the end of your next turn.
+15;FEAR;After you miss, you have the Frightened condition toward the target for {{ d4 }} round/s.
+16;POWERFUL COUNTERATTACK;The target moves toward you makes an attack roll against you with maximized damage.
+17;POWERFUL CRITICAL;The target moves toward you makes a critical hit with maximized damage.
+18;STUCK;Your foot is stuck in a hole and have the Restrained condition until the beginning of your next turn.
+19;WEAPON DAMAGE;Your hit damages your weapon, giving to it permanent -1 to attack rolls and damages.
+20;HARD FALL;You fall Prone and throw your helded items 15 ft. in a random direction ({{ direction }}).

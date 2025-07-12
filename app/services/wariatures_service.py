@@ -98,7 +98,7 @@ def choose_probability():
 
 	# Doppelganger range
 	elif num == probabilities['doppelganger']:
-		print(f"Doppelganger: {num}")
+		return "Doppelganger"
 
 def open_pack(packs_size):
 	miniatures = []

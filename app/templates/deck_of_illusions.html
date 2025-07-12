@@ -75,11 +75,11 @@
                 </div>
                 <div class="text-center mt-3">
                     {% if total_cards == 1 %}
-                    <div class="mb-3"><b>Remain {{ total_cards }} card!</b></div>
+                    <div class="mb-3"><b>{{ total_cards }} card remaining!</b></div>
                     {% elif not total_cards %}
                     <div class="mb-3"><b>No cards remaining!</b></div>
                     {% else %}
-                    <div class="mb-3"><b>Remain {{ total_cards }} cards!</b></div>
+                    <div class="mb-3"><b>{{ total_cards }} cards remaining!</b></div>
                     {% endif %}
 
                     <div class="accordion" id="remainingCardsAccordion">
