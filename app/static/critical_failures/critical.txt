@@ -8,14 +8,14 @@ id;effect;description
 7;Horrible Scar;You are disfigured to the extent that the wound can’t be easily concealed. You have disadvantage on Charisma (Persuasion) checks and advantage on Charisma (Intimidation) checks. Magical healing of 6th level or higher, such as heal and regenerate, removes the scar.
 8;Festering Wound;Your hit point maximum is reduced by 1 every 24 hours the wound persists. If your hit point maximum drops to 0, you die. The wound heals if you receive magical healing. Alternatively, someone can tend to the wound and make a DC 15 Wisdom (Medicine) check once every 24 hours. After ten successes, the wound heals.
 9;Minor Scar;The scar doesn’t have any adverse effect. Magical healing of 6th level or higher, such as heal and regenerate, removes the scar.
-10;Standard Critical Hit;You make a normal critical hit.
-11;Standard Critical Hit;You make a normal critical hit.
-12;Standard Critical Hit;You make a normal critical hit.
-13;Standard Critical Hit;You make a normal critical hit.
-14;Standard Critical Hit;You make a normal critical hit.
-15;Standard Critical Hit;You make a normal critical hit.
-16;Standard Critical Hit;You make a normal critical hit.
-17;Standard Critical Hit;You make a normal critical hit.
-18;Standard Critical Hit;You make a normal critical hit.
-19;Standard Critical Hit;You make a normal critical hit.
-20;Standard Critical Hit;You make a normal critical hit.
+10;Standard Critical Hit;Your attack it's a normal critical hit.
+11;Standard Critical Hit;Your attack it's a normal critical hit.
+12;Standard Critical Hit;Your attack it's a normal critical hit.
+13;Standard Critical Hit;Your attack it's a normal critical hit.
+14;Standard Critical Hit;Your attack it's a normal critical hit.
+15;Standard Critical Hit;Your attack it's a normal critical hit.
+16;Standard Critical Hit;Your attack it's a normal critical hit.
+17;Standard Critical Hit;Your attack it's a normal critical hit.
+18;Standard Critical Hit;Your attack it's a normal critical hit.
+19;Standard Critical Hit;Your attack it's a normal critical hit.
+20;Standard Critical Hit;Your attack it's a normal critical hit.
