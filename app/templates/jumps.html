@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <h1 class="mb-5">{{ title }}</h1>
+</div>
+
+<div class="row">
+    <div class="col-12 col-md-6">
+        <div class="text-center mb-3">
+            <h3>Long Jump</h3>
+        </div>
+        <form id="long-form" class="mb-4">
+            <div class="mb-3">
+                <label for="score" class="form-label fw-bold">Strength score</label>
+                <input type="number" class="form-control" id="score" name="score" max="30" required>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p class="me-5"><strong>Standing:</strong></p>
+                <p><strong>In movement:</strong></p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p class="me-5">0 ft.</p>
+                <p>0 ft.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p class="me-5">0 m</p>
+                <p>0 m</p>
+            </div>
+            <div class="text-center"><button type="submit" class="btn btn-primary">Calculate</button></div>
+        </form>
+    </div>
+
+    <div class="col-12 col-md-6">
+        <div class="text-center mb-3">
+            <h3>High Jump</h3>
+        </div>
+        <form id="high-form" class="mb-4">
+            <div class="mb-3">
+                <label for="mod" class="form-label fw-bold">Strength modifier</label>
+                <input type="number" class="form-control" id="mod" name="mod" max="10" required>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p class="me-5"><strong>Standing:</strong></p>
+                <p><strong>In movement:</strong></p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p class="me-5">0 ft.</p>
+                <p>0 ft.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p class="me-5">0 m</p>
+                <p>0 m</p>
+            </div>
+            <div class="text-center"><button type="submit" class="btn btn-primary">Calculate</button></div>
+
+        </form>
+    </div>
+</div>
+
+{% endblock %}
