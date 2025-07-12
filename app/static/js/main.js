@@ -1,3 +1,0 @@
-function popper() {
-    alert("si!");
-}
