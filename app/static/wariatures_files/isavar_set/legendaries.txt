@@ -1,0 +1,21 @@
+number,name
+1,Mirta & Frymurky
+2,Sennar
+3,Wren & Scheggia
+4,Godrick
+5,Shad
+6,Darian
+7,Konunga Drekalingar
+8,Nastrond
+9,Askran
+10,Galdrafluga
+11,Ovedr
+12,Solvarg
+13,Manavarg
+14,Mara
+15,Hrimthurs
+16,Re Thorbjorn Grimkelsson
+17,Jarl Vanir Alaricsson
+18,Jarl Zephir Norilog
+19,Jarl Halfdan Gudrodarsson
+20,Jarl Indridi Ulfsson
