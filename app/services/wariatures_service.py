@@ -4,6 +4,11 @@ import random
 folder = "app/static/wariatures_files"
 extension = ".txt"
 
+collections = {
+	'bs': 'base_set',
+	'is': 'isavar_set'
+}
+
 probabilities = {
 	"minUnit": 1,
 	"maxUnit": 49,
@@ -33,14 +38,14 @@ categories = {
 	"d": "divinities"
 }
 
-paths = {
-	"units": f"{folder}/{categories['u']}{extension}",
-	"classes": f"{folder}/{categories['c']}{extension}",
-	"legendaries": f"{folder}/{categories['l']}{extension}",
-	"spirits": f"{folder}/{categories['s']}{extension}",
-	"divinities": f"{folder}/{categories['d']}{extension}"
-}
-
+def build_paths(collection):
+	return {
+		"units": f"{folder}/{collections[collection]}/{categories['u']}{extension}",
+		"classes": f"{folder}/{collections['bs']}/{categories['c']}{extension}",
+		"legendaries":f"{folder}/{collections[collection]}/{categories['l']}{extension}",
+		"spirits": f"{folder}/{collections['bs']}/{categories['s']}{extension}",
+		"divinities": f"{folder}/{collections[collection]}/{categories['d']}{extension}",
+	}
 
 def count_lines_txt(paths):
 	try:
@@ -68,13 +73,13 @@ def get_miniature(paths):
 	except Exception as e:
 		print(f"An error occurred while getting a miniature in file: {paths} | number: {num}")
 
-def choose_probability():
+def choose_probability(collection):
 	num = random.randint(minimum, maximum)
+	paths = build_paths(collection)
 
 	# Unit range
 	if num >= probabilities['minUnit'] and num <= probabilities['maxUnit']:
-		miniature = get_miniature(paths['units'])
-		return miniature
+		return get_miniature(paths['units'])
 
 	# Class range
 	elif num >= probabilities['minClass'] and num <= probabilities['maxClass']:
@@ -83,8 +88,7 @@ def choose_probability():
 
 	# Legendary range
 	elif num >= probabilities['minLegendary'] and num <= probabilities['maxLegendary']:
-		miniature = get_miniature(paths['legendaries'])
-		return miniature
+		return get_miniature(paths['legendaries'])
 
 	# Spirit range
 	elif num == probabilities['spirit']:
@@ -93,29 +97,26 @@ def choose_probability():
 
 	# Divinity range
 	elif num == probabilities['divinity']:
-		miniature = get_miniature(paths['divinities'])
-		return miniature
+		return get_miniature(paths['divinities'])
 
 	# Doppelganger range
 	elif num == probabilities['doppelganger']:
 		return "Doppelganger"
 
-def open_pack(packs_size):
+def open_pack(packs_size, collection='bs'):
+	paths = build_paths(collection)
 	miniatures = []
 
-	for i in range(packs_size):
-		miniature = choose_probability()
+	for _ in range(packs_size):
+		miniature = choose_probability(collection)
 		miniatures.append(miniature)
 
 	if packs_size == 5:
-		class_miniature = get_miniature(paths['classes'])
-		miniatures.append(class_miniature)
+		miniatures.append(get_miniature(paths['classes']))
 
 	if packs_size == 6:
-		for i in range(2):
-			legendary_miniature = get_miniature(paths['legendaries'])
-			miniatures.append(legendary_miniature)
-
+		for _ in range(2):
+			miniatures.append(get_miniature(paths['legendaries']))
 		miniatures.append("Doppelganger")
 
 	return miniatures

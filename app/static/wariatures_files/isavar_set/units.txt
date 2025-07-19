@@ -1,0 +1,21 @@
+number,name
+1,Guerriero di Nastrond
+2,Berserker di Nastrond
+3,Sacerdote di Nastrond
+4,Berserker di Vokheim
+5,Guerriero di Grimdarfrost
+6,Druido di Granarstadir
+7,Ulfhedinn di Dokkvi
+8,Incantatore di Brennusumar
+9,Bergrisar
+10,Flugga
+11,Razziatore di Askran
+12,Fabbro nanico
+13,Valchiria
+14,Draugr
+15,Strega
+16,Ljosalfar
+17,Dokkalfar
+18,Marmennil veggente
+19,Serpe custode
+20,Saehrimnir

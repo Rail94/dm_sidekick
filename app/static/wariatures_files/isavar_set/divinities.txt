@@ -1,0 +1,7 @@
+number,name
+1,Hvitlios (Giustizia)
+2,Hvitlios (Guerra)
+3,Hvitlios (Arcano)
+4,Hvitlios (Forgia)
+5,Hvitlios (Spirituale)
+6,Rattenkönig
