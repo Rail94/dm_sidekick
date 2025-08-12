@@ -10,92 +10,92 @@
 
     <div class="col-12 col-md-6 col-lg-3">
         <div class="card h-100 shadow">
-            <div class="card-body text-center">
-                <a href="{{ url_for('initiative.initiative') }}" class="text-decoration-none text-dark">
+            <a href="{{ url_for('initiative.initiative') }}" class="text-decoration-none text-dark">
+                <div class="card-body text-center">
                     <img src="{{ url_for('static', filename='img/d20.webp') }}"
                         class="img-fluid object-fit-contain mb-3" style="height: 100px;" alt="roll initiative">
                     <div><b>Initiative Tracker</b></div>
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
     </div>
 
     <div class="col-12 col-md-6 col-lg-3">
         <div class="card h-100 shadow">
-            <div class="card-body text-center">
-                <a href="{{ url_for('critical_failures.critical_failures') }}" class="text-decoration-none text-dark">
+            <a href="{{ url_for('critical_failures.critical_failures') }}" class="text-decoration-none text-dark">
+                <div class="card-body text-center">
                     <img src="{{ url_for('static', filename='img/fumble.png') }}"
                         class="img-fluid object-fit-contain mb-3" style="height: 100px;" alt="fail">
                     <div><b>Critical Fumbles</b></div>
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
     </div>
 
     <div class="col-12 col-md-6 col-lg-3">
         <div class="card h-100 shadow">
-            <div class="card-body text-center">
-                <a href="{{ url_for('deck_of_illusions.deck_of_illusions') }}" class="text-decoration-none text-dark">
+            <a href="{{ url_for('deck_of_illusions.deck_of_illusions') }}" class="text-decoration-none text-dark">
+                <div class="card-body text-center">
                     <img src="{{ url_for('static', filename='img/cards_images/Cover.png') }}"
                         class="img-fluid object-fit-contain mb-3" style="height: 100px;" alt="deck of illusions">
                     <div><b>Deck of Illusions</b></div>
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
     </div>
 
     <div class="col-12 col-md-6 col-lg-3">
         <div class="card h-100 shadow">
-            <div class="card-body text-center">
-                <a href="{{ url_for('jumps.jumps') }}" class="text-decoration-none text-dark">
-                    <img src="{{ url_for('static', filename='img/cards_images/Cover.png') }}"
-                        class="img-fluid object-fit-contain mb-3" style="height: 100px;" alt="jumps calculator">
-                    <div><b>Jumps Calculator</b></div>
-                </a>
-            </div>
+            <a href="{{ url_for('jumps.jumps') }}" class="text-decoration-none text-dark">
+                <div class="card-body text-center">
+                    <img src="{{ url_for('static', filename='img/jump-icon.png') }}"
+                        class="img-fluid object-fit-contain mb-3" style="height: 100px;" alt="jump">
+                    <div><b>Jump Calculator</b></div>
+                </div>
+            </a>
         </div>
     </div>
-
 </div>
 
 <h2 class="mt-5 mb-3">Roleplaying Tools</h2>
-<div class="row g-3">
+<div class="row g-3 mb-5">
 
     <div class="col-12 col-md-6 col-lg-3">
         <div class="card h-100 shadow">
-            <div class="card-body text-center">
-                <a href="{{ url_for('probabilities.probabilities') }}" class="text-decoration-none text-dark">
+            <a href="{{ url_for('probabilities.probabilities') }}" class="text-decoration-none text-dark">
+                <div class="card-body text-center">
                     <img src="{{ url_for('static', filename='img/d100-logo.png') }}"
                         class="img-fluid object-fit-contain mb-3" style="height: 100px;" alt="probabilities">
                     <div><b>Calculate Probabilities</b></div>
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
     </div>
 
     <div class="col-12 col-md-6 col-lg-3">
         <div class="card h-100 shadow">
-            <div class="card-body text-center">
-                <a href="#" class="text-decoration-none text-dark">
-                    <img src="{{ url_for('static', filename='img/card_cover.png') }}"
+            <a href="{{ url_for('names.names') }}" class="text-decoration-none text-dark">
+                <div class="card-body text-center">
+                    <img src="{{ url_for('static', filename='img/name-icon.png') }}"
                         class="img-fluid object-fit-contain mb-3" style="height: 100px;" alt="name generator">
-                    <div><b>Name Generator (Working)</b></div>
-                </a>
-            </div>
+                    <div><b>Names Generator</b></div>
+                </div>
+            </a>
         </div>
     </div>
 
     <div class="col-12 col-md-6 col-lg-3">
         <div class="card h-100 shadow">
-            <div class="card-body text-center">
-                <a href="{{ url_for('wariatures.wariatures') }}" class="text-decoration-none text-dark">
+            <a href="{{ url_for('wariatures.wariatures') }}" class="text-decoration-none text-dark">
+                <div class="card-body text-center">
                     <img src="{{ url_for('static', filename='img/miniature.png') }}"
                         class="img-fluid object-fit-contain mb-3" style="height: 100px;" alt="wariatures">
                     <div><b>Wariatures Unpack</b></div>
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
     </div>
+
 
 </div>
 {% endblock %}

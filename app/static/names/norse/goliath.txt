@@ -1,0 +1,125 @@
+id,male,female,meaning_en,meaning_it,source
+1,Ymir,,Murmur(?)/Twin,Mormorio(?)/Gemello,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+2,Aurgelmir,,Generated from wet sand/He who makes noise,Generato dalla sabbia umida/Colui che rumoreggia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+3,Blainn,,Dark,Scuro,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+4,Brimir,,Related to brim (wave/sea),Collegato a brim (onda/mare),Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+5,Leirbrimir,,Brimir of clay,Brimir d'argilla,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+6,Thrudgelmir,,He who rumbles with power,Colui che rumoreggia con potenza,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+7,Bergelmir,,He who rumbles like a bear,Colui che rumoreggia come un orso,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+8,,Bestla,Bride(?),Sposa(?),Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+9,Bolthorn,,Thorn of evil/Brutal person,Spina del male/Persona brutale,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+10,Fyrnir,,Ancient,Antico,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+11,Fornjotr,,Ancient Giant,Antico Gigante,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+12,Hresvelgr,,Fast vortex,Vortice veloce,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+13,Vindsvalr,,Wind-cool,Vento fresco,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+14,Vasadr,,Related to vás: Fatigue,Ricollegabile a vás: Fatica,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+15,Vindkaldr,,Cold like the wind,Freddo come il vento,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+16,Varkaldr,,Cold like the spring,Freddo come la primavera,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+17,Fjorkaldr,,Very cold,Molto freddo,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+18,Svasudr,,Lovable/Pleasant,Amabile/Piacevole,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+19,Leifi,,Son,Figlio,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+20,Verr,,Man,Uomo,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+21,,Rygr,Lady/Powerful woman,Signora/Donna potente,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+22,Fitjungr,,Rich man,Uomo ricco,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+23,Hler,,Sea,Mare,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+24,,Ran,Predator,Predatrice,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+25,Lerus,,Derives from Lejre (Danish city),Deriva da Lejre (Città danese),Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+26,Aegir,,Sea,Mare,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+27,Gymir,,Sea,Mare,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+28,Olvaldi,,He who has power over beer,Colui che ha potere sulla birra,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+29,Miskorblindi,,The one who brews the beer,Colui che prepara la birra,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+30,,Himinglefa,In which the sky is reflected,In cui si riflette il cielo,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+31,,Blodughadda,With bloody hair,Con la chioma insanguinata,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+32,,Hefring,Wave,Onda,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+33,,Kolga,Cold wave,Onda fredda,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+34,,Bylgja,Wave,Onda,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+35,,Udr,Wave,Onda,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+36,,Drofn,Wave,Onda,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+37,,Hronn,Wave,Onda,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+38,,Baara,Wave,Onda,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+39,,Aurboda,She who offers gold,Colei che offre l'oro(?),Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+40,Gerdr,,-,-,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+41,,Margerdr,Gerdr of the sea,Gerdr del mare,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+42,,Unngerdr,Gerdr of the wave,Gerdr dell'onda,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+43,,Guma,Woman of the sea,Donna del mare,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+44,Gusir,,Stormy,Tempestoso,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+45,Frosti,,Ice,Ghiaccio,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+46,Jokul,,Ice/Icicle,Ghiaccio/Ghiacciolo,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+47,Snjor,,Snow,Neve,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+48,Thorri,,A winter month between half january and half february,Un mese invernale tra metà gennaio e metà febbraio,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+49,,Fonn,Snowdrift,Cumulo di neve,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+50,,Mjoll,Powdery snow,Neve farinosa,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+51,,Drifa,Snowstorm,Tempesta di neve,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+52,Norr,,Subtle,Sottile,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+53,Gorr,,First winter month between october and november,Primo mese invernale tra ottobre e novembre,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+54,,Goi,A winter month between half february and half march,Primo mese invernale tra metà febbraio e metà marzo,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+55,Hrimgrimnir,,Grimnir of the ice,Grimnir del ghiaccio,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+56,,Hrimgerdr,Gerdr of the ice,Gerdr del ghiaccio,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+57,Hati,,Hateful,Odioso,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+58,Hrimnir,,Frozen,Ghiacciato,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+59,Heidr,,Honor,Onore,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+60,Hrossthjolfr,,Horse thief,Ladro di cavalli,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+61,,Vargeisa,Impetuous as a she-wolf,Impetuosa come una lupa,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+62,Kaldgrani,,Cold mustache,Baffi freddi,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+63,Logi,,Flame,Fiamma,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+64,Eldr,,Fire,Fuoco,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+65,Surtr,,Black,Nero,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+66,Brandingi,,He who sets the fire,Colui che appicca il fuoco,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+67,Hjorvardr,,Keeper of the Sword,Custode della spada,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+68,,Hvedna,Rock Dweller,Abitatrice delle rocce,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+69,Haki,,Hook,Uncino,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+70,,Sinmara,Torturing nightmare with cramps,Incubo che tortura con crampi,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+71,,Eisurfala,Ash Witch,Strega della cenere,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+72,,Osgrui,Pile of ash,Mucchio di cenere,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+73,,Hyrrokkin,Shriveled by the fire,Raggrinzita per il fuoco,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+74,Galarr,,Screaming,Urlante,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+75,Glaumarr,Glumra,Noisy,Rumoroso,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+76,Glaumvarr,Glumra,Noisy,Rumoroso,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+77,Gyllir,,He who screams,Colui che urla,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+78,Herkir,,Noisy/Destroyer,Rumoroso/Distruttore,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+79,,Herkja,Noisy/Tormented,Rumorosa/Tormentata,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+80,Hloi,,He who screams,Colui che urla,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+81,,Hvedra,Resonant/Rock Dweller,Risonante/Abitatrice delle rocce(?),Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+82,Skerkir,,He who makes noise,Colui che fa rumore,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+83,Oskrudr,Skrikja,Screaming,Urlante,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+84,Alfarinn,,He who has traveled a lot,Colui che ha viaggiato molto,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+85,Vafthrudnir,,Skilled at riddles,Abile negli indovinelli,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+86,Asvidr,,Very wise,Molto sapiente,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+87,Osvidr,,Very wise,Molto sapiente,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+88,Alsvidr,,Very wise,Molto sapiente,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+89,Fjalarr,,Very wise,Molto sapiente,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+90,Fjolsvidr,,Very wise,Molto sapiente,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+91,Fjolvarr,Fjolvorr,Very careful,Molto accorto,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+92,,Sivor,Always careful,Sempre accorta,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+93,,Vardrun,Rune (wisdom) that watches over,Runa (sapienza) che veglia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+94,Vornir,,He who is careful,Colui che sta attento,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+95,Mimir,,He who remembers,Colui che ricorda,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+96,Hoddmimir,,Mimir of the gold,Mimir dell'oro,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+97,Hringmimir,,Mimir of the ring,Mimir dell'anello,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+98,Sokmimir,,Mimir of the depth,Mimir delle profondità,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+99,Heiddraupnir,,The bright dripping,Il luminoso gocciolante,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+100,Hoddropnir,,Destroyer of the gold,Distruttore dell'oro,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+101,,Fenja,She who works hard,Colei che lavora duramente,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+102,,Menja,Slave,Schiava,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+103,,Gnissa,She who grinds,Colei che macina,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+104,,Grisla,She who grinds,Colei che macina,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+105,,Gjalp,Wave/Noisy,Onda/Rumoreggiante,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+106,Geirrodr,,-,-,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+107,,Greip,She who grasps,Colei che afferra,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+108,,Eistla,Stormy,Burrascosa,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+109,,Eyrgjafa,Wet sand dispenser,Dispensatrice di sabbia umida,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+110,,Ulfrun,Rune of the wolf,Runa del lupo,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+111,,Angeyja,She who oppresses,Colei che opprime,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+112,,Imd,Grey like a wolf,Grigia come un lupo,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+112,,Atla,She who aspires to fight,Colei che aspira alla lotta,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+113,,Jarnsaxa,With the iron knife,Con il coltello di ferro,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+114,Mogthrasir,,He who desires children,Colui che desidera figli,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+115,Neri,,Strong man,Uomo forte,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+116,,Angrboda,Omen of evil,Presagio del male,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+117,Farbauti,,He who strikes dangerously,Colui che colpisce pericolosamente,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+118,Hvedrungr,,Resonant,Risonante,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+119,Hrymr,,Frozen,Congelato,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+120,Thokk,,Benevolence (in an ironic sense),Benevolenza (in senso ironico),Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330:341.
+121,Midi,,Median,Mediano,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+122,Midjungr,,Being from the middle world,Essere del mondo di mezzo,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+123,Skrymir,,He who boasts,Colui che si vanta,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.

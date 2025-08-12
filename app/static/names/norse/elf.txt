@@ -1,0 +1,12 @@
+id,male,female,meaning_en,meaning_it,source
+1,Gandalfr,,Deceiving elf,Elfo ingannatore,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):331-337.
+2,Alfrigg,,Powerful elf/He who has many experiences,Elfo potente/Colui che ha molte esperienze,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):331-337.
+3,Vindalfr,,Wind elf,Elfo del vento,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):331-337.
+4,Lidskjalfr,,Dangling,Ciondolante,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):331-337.
+5,Dainn,,Dead,Morto,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309-311.
+6,,Alfhildr,Battle elf,Elfo della battaglia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309-311. <a href="https://www.behindthename.com/name/alfhild" target="_blank">Behind the name</a>
+7,Geirstadaalfr,,Elf of Geirstadir (location),Elfo di Geirstadir (luogo),Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309-311.
+8,Alfr,,Elf,Elfo,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309-311.
+9,Brynjalfr,,Armor Elf,Elfo della corazza,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309-311.
+10,Alfarinn,,-,-,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309-311.
+11,Alfrodull,,Splendor of the Elves,Splendore degli elfi,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309-311.
