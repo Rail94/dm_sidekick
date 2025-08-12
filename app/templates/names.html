@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <h1 class="mb-5">{{ title }}</h1>
+</div>
+
+{% if msg %}
+<div class="alert alert-danger text-center" role="alert">
+    {{ msg }}
+</div>
+{% endif %}
+
+<div class="row justify-content-center">
+    <div class="col-6 col-md-6 col-lg-4">
+        <form action="{{ url_for('names.generate_standard_name') }}" method="get">
+            <div class="card shadow-sm border-0">
+                <div class="card-body text-center">
+                    <h5 class="card-title mb-4">Standard</h5>
+                    <div class="mb-3 text-start">
+                        <label for="speciesSelect" class="form-label">Species</label>
+                        <select name="standardSpecies" id="speciesSelect" class="form-select">
+                            <option selected disabled>-- Select a species --</option>
+                            {% for label, value in species.items() %}
+                            <option value="{{ value }}">{{ label }}</option>
+                            {% endfor %}
+
+                        </select>
+                    </div>
+
+                    <button id="generateBtn" class="btn btn-primary w-100" type="submit" disabled>
+                        Generate Name
+                    </button>
+
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-6 col-md-6 col-lg-4">
+        <form action="{{ url_for('names.generate_norse_name') }}" method="get">
+            <div class="card shadow-sm border-0">
+                <div class="card-body text-center">
+                    <h5 class="card-title mb-4">Norse</h5>
+
+                    <div class="mb-3 text-start">
+                        <label for="speciesSelectNorse" class="form-label">Species</label>
+                        <select name="norseSpecies" id="speciesSelectNorse" class="form-select">
+                            <option selected disabled>-- Select a species --</option>
+                            {% for label, value in norse.items() %}
+                            <option value="{{ value }}">{{ label }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <button id="generateBtnNorse" class="btn btn-primary w-100" type="submit" disabled>
+                        Generate Name
+                    </button>
+
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+<div class="row my-5">
+    {% if not name %}
+    <div class="card">
+        <div class="card-header">
+        </div>
+        <div class="card-body">
+            <figure>
+                <blockquote class="blockquote text-center">
+                    <p>Generate a name</p>
+                </blockquote>
+                <figcaption class="blockquote-footer text-center">
+                    </cite>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    {% else %}
+    <div id="name-card" class="card shadow-sm border-0 mb-4">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <span><i class="bi bi-person-lines-fill me-2"></i>{{ name.species }} {{ name.gender }}</span>
+            <small>No. {{ name.id }}</small>
+        </div>
+        <div class="card-body text-center">
+            <span><button class="btn btn-primary mb-3" onclick="location.reload();">Regenerate</button></span>
+            <h4 class="card-title mb-3">{{ name.name }} {{ name.surname }}</h4>
+
+            {% if name.meaning_en %}
+            <p class="text-muted mb-2">
+            <div class="text-center"><strong>Meaning:</strong></div>
+            <div><img src="{{ url_for('static', filename='img/en.svg') }}" alt="en_flag" style="width: 20px;"><strong
+                    class="ms-2">English:</strong> {{
+                name.meaning_en }}</div>
+            <div><img src="{{ url_for('static', filename='img/it.svg') }}" alt="it_flag" style="width: 20px;"><strong
+                    class="ms-2">Italian:</strong> {{ name.meaning_it }}</div>
+            </p>
+            <p class="text-muted">
+                <strong>Source:</strong> {{ name.source | safe }}
+            </p>
+            {% endif %}
+        </div>
+    </div>
+
+</div>
+{% endif %}
+<script src="{{ url_for('static', filename='js/species.js') }}"></script>
+{% endblock %}

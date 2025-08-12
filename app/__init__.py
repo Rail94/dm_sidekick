@@ -6,6 +6,7 @@ from app.routes.deck_of_illusions import deck_of_illusions_bp
 from app.routes.critical_failures import critical_failures_bp
 from app.routes.probabilities import probabilities_bp
 from app.routes.jumps import jumps_bp
+from app.routes.names_generator import names_bp
 
 # Blueprint Registration
 def create_app():
@@ -18,5 +19,6 @@ def create_app():
 	app.register_blueprint(critical_failures_bp)
 	app.register_blueprint(probabilities_bp)
 	app.register_blueprint(jumps_bp)
+	app.register_blueprint(names_bp)
 
 	return app
