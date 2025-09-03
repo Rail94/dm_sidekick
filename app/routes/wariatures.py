@@ -6,7 +6,7 @@ wariatures_bp = Blueprint('wariatures', __name__)
 @wariatures_bp.route('/wariatures')
 def wariatures():
     miniatures = request.args.getlist('miniatures')
-    return render_template('wariatures.html', title="Wariatures Collection", miniatures=miniatures)
+    return render_template('wariatures.html', title="Wariatures Unpack", miniatures=miniatures)
 
 @wariatures_bp.route('/open_bag/<size>')
 def open_bag(size):
