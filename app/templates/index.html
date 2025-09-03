@@ -12,8 +12,8 @@
         <div class="card h-100 shadow">
             <a href="{{ url_for('initiative.initiative') }}" class="text-decoration-none text-dark">
                 <div class="card-body text-center">
-                    <img src="{{ url_for('static', filename='img/d20.webp') }}"
-                        class="img-fluid object-fit-contain mb-3" style="height: 100px;" alt="roll initiative">
+                    <img src="{{ url_for('static', filename='img/d20.png') }}" class="img-fluid object-fit-contain mb-3"
+                        style="height: 100px;" alt="roll initiative">
                     <div><b>Initiative Tracker</b></div>
                 </div>
             </a>
@@ -25,7 +25,7 @@
             <a href="{{ url_for('critical_failures.critical_failures') }}" class="text-decoration-none text-dark">
                 <div class="card-body text-center">
                     <img src="{{ url_for('static', filename='img/fumble.png') }}"
-                        class="img-fluid object-fit-contain mb-3" style="height: 100px;" alt="fail">
+                        class="img-fluid object-fit-contain mb-3" style="height: 100px;" alt="fumble">
                     <div><b>Critical Fumbles</b></div>
                 </div>
             </a>

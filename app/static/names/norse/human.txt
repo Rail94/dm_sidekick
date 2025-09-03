@@ -1,0 +1,4 @@
+id,male,female,meaning_en,meaning_it,source
+1,Gisli,
+2,Torf,
+3,Gestr,

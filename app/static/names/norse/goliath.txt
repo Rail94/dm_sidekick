@@ -123,3 +123,5 @@ id,male,female,meaning_en,meaning_it,source
 121,Midi,,Median,Mediano,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
 122,Midjungr,,Being from the middle world,Essere del mondo di mezzo,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
 123,Skrymir,,He who boasts,Colui che si vanta,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.
+124,Soti,,Black as soot,Nero come la fuliggine,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):296.
+125,Sumarr,,Summer,Estate,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):317-330.

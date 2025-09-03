@@ -19,7 +19,6 @@ function getValues() {
     const name = document.getElementById('name').value;
     const bonus = parseInt(document.getElementById('bonus-initiative').value) || 0;
     return { name, bonus };
-
 }
 
 function rollDice(bonus) {
@@ -56,35 +55,32 @@ function appendRow(name, initiative) {
     const hp = parseInt(document.getElementById('hp').value) || 0;
     const quantity = parseInt(document.getElementById('quantity').value);
 
-    for (let i = 1; i < quantity + 1; i++) {
+    const groupId = name.toLowerCase().replace(/\s+/g, '-');
+
+    for (let i = 1; i <= quantity; i++) {
         const newRow = document.createElement('tr');
+        const displayName = i > 1 ? `${name} ${i}` : name;
 
-        if (i > 1) {
-            newRow.innerHTML = `
-            <td>${initiative}</td>
-            <td style='cursor: pointer;' onclick="this.classList.toggle('strikethrough')">${name + " " + i}</td>
-            <td>
-            <input class='small-input' type="number" onkeydown="handleEnter(event, this)">
-            <button onClick='sumDamage(this)' class="btn-sum">=</button>
-            <span class="fw-bold">${hp}</span>
-            </td>
-        `;
-        } else {
-            newRow.innerHTML = `
-            <td>${initiative}</td>
-            <td style='cursor: pointer;' onclick="this.classList.toggle('strikethrough')">${name}</td>
-            <td>
-            <input class='small-input' type="number" onkeydown="handleEnter(event, this)">
-            <button onClick='sumDamage(this)' class="btn-sum">=</button>
-            <span class="fw-bold">${hp}</span>
-            </td>
-        `;
-        }
+        newRow.setAttribute("data-group", groupId);
 
-
+        newRow.innerHTML = `
+    <td>${initiative}</td>
+    <td style='cursor: pointer;' 
+        onclick="this.classList.toggle('strikethrough')" 
+        data-bonus="${document.getElementById('bonus-initiative').value}">
+        ${displayName}
+    </td>
+    <td>
+        <input class='small-input' type="number" onkeydown="handleEnter(event, this)">
+        <button onClick='sumDamage(this)' class="btn-sum">=</button>
+        <span class="fw-bold">${hp}</span>
+        <button class="btn btn-delete" onclick="deleteRow(this)">✖</button>
+    </td>
+`;
         tbody.appendChild(newRow);
     }
 }
+
 
 function sortTable() {
     const tbody = document.querySelector('#initiative-table tbody');
@@ -101,20 +97,46 @@ function sortTable() {
 }
 
 function rollInitiative() {
-    const tbody = document.querySelector('#initiative-table tbody');
-
     document.getElementById('initiative-form').addEventListener('submit', function (e) {
         e.preventDefault();
 
         const { name, bonus } = getValues();
         const initiative = rollDice(bonus);
-        appendRow(name, initiative);
+        appendRow(name, initiative, bonus);
 
         sortTable();
-
         this.reset();
-
     });
 }
 
-document.addEventListener('DOMContentLoaded', rollInitiative);
+function rerollAll() {
+    document.getElementById('rerollButton').addEventListener('click', function () {
+        const tbody = document.querySelector('#initiative-table tbody');
+        const rows = Array.from(tbody.querySelectorAll('tr'));
+
+        const groups = {};
+
+        rows.forEach(row => {
+            const groupId = row.dataset.group;
+            const bonus = parseInt(row.children[1].dataset.bonus) || 0;
+
+            if (!(groupId in groups)) {
+                groups[groupId] = rollDice(bonus);
+            }
+
+            row.children[0].textContent = groups[groupId];
+        });
+
+        sortTable();
+    });
+}
+
+function deleteRow(button) {
+    const row = button.closest('tr');
+    row.remove();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    rollInitiative();
+    rerollAll();
+});
