@@ -34,8 +34,8 @@ norse = {
     "Elf (Female)": "elf_female",
     "Goliath/Giant (Male)": "goliath_male",
     "Goliath/Giant (Female)": "goliath_female",
-    "Human (Male)": "norse_human_male",
-    "Human (Female)": "norse_human_female"
+    "Human (Male)": "human_male",
+    "Human (Female)": "human_female"
 }
 
 @names_bp.route('/names')

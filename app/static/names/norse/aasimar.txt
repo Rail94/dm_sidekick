@@ -1,0 +1,54 @@
+id,male,female,meaning_en,meaning_it,source
+1,,Gunnlod,Blood,Sangue,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):328.
+2,,Svafa,She who kills,Colei che uccide,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):307.
+3,,Kara,Stormy as the wind,Tempestosa come il vento,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):307.
+4,,Hladgudr,Valkyrie with a ribbon adorning her head,Valchiria con un nastro che le adorna la testa,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):307.
+5,,Svanhvit,White as a Swan,Bianca come un cigno,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+6,,Hervor,Protector of the army,Protettrice dell'esercito,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+7,,Alvitr,Very wise,Molto sapiente,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+8,,Olrun,Rune of the beer,Runa della birra,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+9,,Brunhilde,Valkyrie with the armor,Valchiria con la corazza,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+10,,Sigrdrifa,She who leads to victory,Colei che porta alla vittoria,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+11,,Hrist,She who shakes the shield/makes you tremble,Colei che scuote lo scudo/fa tremare,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+12,,Mist,Foggy,Nebbiosa,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+13,,Skeggold,Time of the axes (Battle),Tempo delle asce (Battaglia),Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+14,,Skogul,Battle,Battaglia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+15,,Hildi,Battle,Battaglia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+16,,Thrudi,Strength/Woman,Forza/Donna,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+17,,Hlokk,Roar of battle,Fragore della battaglia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+18,,Goll,Roar of battle,Fragore della battaglia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+19,,Herfjotur,Army Chainer,Incatenatrice dell'esercito,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+20,,Geirahod,Battle of the spears,Battaglia delle lance,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+21,,Randgrid,Shield giant/She who destroys the shield,Gigantessa dello scudo/Colei che distrugge lo scudo,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+22,,Radgrid,Violent council,Of violent nature,Di violento consiglio,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+23,,Reginleif,Heir daughter,Figlia erede,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+24,,Gunnr,Battle,Battaglia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+25,,Rota,She who provokes the fray,Colei che scatena la mischia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+26,,Geirrota,Spear Rota,Rota della lancia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+27,,Skuld,Debt/Guilt,Debito/Colpa,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+28,,Geiravor,Spear goddess,Dea delle lance,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+29,,Geirdriful,She who throws the spear,Colei che scaglia la lancia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+30,,Geirfljod,Woman of the spear,Donna della lancia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+31,,Geirvif,Woman of the spear,Donna della lancia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+32,,Geirhrid,Spear storm,Tempesta di lance,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+33,,Geirskogul,Spear battle,Battaglia delle lance,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+34,,Geirthriful,She who grasps the spear,Colei che afferra la lancia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+35,,Geirthrudr,Strenght/Woman of the spear,Forza/donna della lancia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308.
+36,,Geirolul,She who advances armed with a spear,Colei che avanza armata di lancia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):308-309.
+37,,Herja,Warrior,Guerriera,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.
+38,,Herthogn,She who welcomes the army,Colei che accoglie l'esercito,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.
+39,,HjalmThrimul,She of the thunderous helm,Colei che indossa l’elmo risonante,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.
+40,,Hjorthrimul,She of the thunderous sword,Colei che ha la spa da risonante,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.
+41,,Hrund,She who hits,Colei che colpisce,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.
+42,,Sigrlod,She who leads to victory,Colei che invita alla vittoria,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.
+43,,Skalmold,Time of the swords (Battle),Tempo delle spade (Battaglia),Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.
+44,,Sveid,Roar of the battle,Fragore della battaglia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.
+45,,Valthogn,She who welcomes the chosen ones,Colei che accoglie i prescelti,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.
+46,,Thrima,Battle,Battaglia,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.
+47,,Nipt,Sister,Sorella,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.
+48,,Gondul,Sorceress,Maga,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.
+49,,Leikn,Very cruel,Molto crudele,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.
+50,,Tanngnidr,Who gnashes his teeth,Che digrigna i denti,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.
+51,,Ilmr,Goddess,Dea,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.
+52,,Svipul,Changing,Mutevole,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.
+53,,Thogn,Taciturn,Taciturna,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309.

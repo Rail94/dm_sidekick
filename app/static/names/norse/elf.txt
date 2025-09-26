@@ -10,3 +10,4 @@ id,male,female,meaning_en,meaning_it,source
 9,Brynjalfr,,Armor Elf,Elfo della corazza,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309-311.
 10,Alfarinn,,-,-,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309-311.
 11,Alfrodull,,Splendor of the Elves,Splendore degli elfi,Gianna Chiesa Isnardi; I Miti Nordici; Longanesi; (2021):309-311.
+12,Alvar,,Elf warrior/Spear,Elfo guerriero/Lancia,<a href="https://vikingr.org/explorers/male-names" target="_blank">Vikingr</a>

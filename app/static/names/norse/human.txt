@@ -1,4 +1,44 @@
 id,male,female,meaning_en,meaning_it,source
-1,Gisli,
-2,Torf,
-3,Gestr,
+1,Bjorn,,Bear,Orso,Cleasby 1874:66; De Vries 2000:41; Köbler 2014:31.
+2,Grimkell,,gríma (Mask) + ketill (Cauldron),gríma (Maschera) + ketill (Calderone),Cleasby 1874:216; De Vries 2000:188-189; Köbler 2014:147.
+3,Hallkell,,hallr (Stone) + ketill (Cauldron),hallr (Pietra) + ketill (Calderone),Cleasby 1874:235; De Vries 2000:205; Köbler 2014:160.
+4,Hordr,,A personal name,Un nome personale,<a href="https://old-norse.net/html/h.php#h%C3%B6r%C3%B0r" target="_blank">Cleasby 1874 Online</a>
+5,,Helga,Sanctify,Santificare,<a href="https://old-norse.net/html/h.php#helga" target="_blank">Cleasby 1874 Online</a>
+6,Hroarr,,praise/fame,lode/fama,<a href="https://www.behindthename.com/name/hro10arr" target="_blank">Behind the name</a>
+7,,Indridi,the great rider,un gran cavalcatore,<a href="https://old-norse.net/html/e.php#einri%C3%B0i" target="_blank">Cleasby 1874 Online</a>
+8,Kolgrimr,,kol (Coal black) + gríma (Mask),kol(Nero carbone) + gríma (Maschera),Cleasby 1874.
+9,Skeifr,,oblique,obliquo,Cleasby 1874:543; De Vries 2000:488; Köbler 2014:131.
+10,Styrmir,,to storm,colui che causa tempeste,<a href="https://www.behindthename.com/name/styrmir/submitted" target="_blank">Behind the name</a>
+11,,Thorbjorg,Thunder + salvation, Tuono + salvezza,<a href="https://www.behindthename.com/name/th31orbjo12rg">Behind the name</a>; <a href="https://old-norse.net/html/b.php#bj%C3%B6rg-3"_blank">Cleasby 1874 Online</a>
+12,,Ingibjorg,Ancestor + salvation,Antenato + salvezza,<a href="https://www.behindthename.com/name/ingibjo12rg">Behind the name</a>; <a href="https://old-norse.net/html/b.php#bj%C3%B6rg-3"_blank">Cleasby 1874 Online</a>
+13,,Gudbjorg,God + salvation,Dio + salvezza,<a href="https://old-norse.net/html/b.php#bj%C3%B6rg-3"_blank">Cleasby 1874 Online</a>
+14,Thordr,,Peace of Thor, Pace di Thor,<a href="https://www.behindthename.com/name/th31o10rth30r" target="_blank">Behind the name</a>
+15,Tindr,,Spike/Tooth,Spuntone/Dente,Cleasby 1874:632; Köbler 2014:215.
+16,Sigurd,,Victorious guardian,Guardiano vittorioso,<a href="https://www.behindthename.com/name/sigurd" target="_blank">Behind the name</a>
+17,Bragi,,Poetry,Poem,<a href="https://www.behindthename.com/name/bragi" target="_blank">Behind the name</a>
+18,Hakon,,Noble family,Famiglia nobile,<a href="https://vikingr.org/explorers/male-names" target="_blank">Vikingr</a>
+19,Ketill,,Cauldron,Calderone,Cleasby 1874:337-338, Köbler 2014:230.
+20,Erik,,Sole ruler,Sovrano solitario,<a href="https://vikingr.org/explorers/male-names" target="_blank">Vikingr</a>
+21,Asbjorn,,Gods bear,Orso degli dei,<a href="https://vikingr.org/explorers/male-names" target="_blank">Vikingr</a>
+22,Kolbjorn,,Black bear,Orso nero,<a href="https://www.behindthename.com/name/kolbjo19rn/submitted">Behind the name</a>
+23,Asgeir,,Gods spear,Lancia degli dei,<a href="https://vikingr.org/explorers/male-names" target="_blank">Vikingr</a>
+24,Audun,,Wealth friend,Rich friend,<a href="https://www.behindthename.com/name/auth30un" target="_blank">Behind the name</a>
+25,Grimr,,Mask,Maschera,Cleasby 1874:216; De Vries 2000:188-189; Köbler 2014:147.
+26,Ivarr,,Bow + Army,Arco + Esercito,<a href="https://www.behindthename.com/name/i10varr" target="_blank">Behind the name</a>
+27,Thorfinn,,Thor + person from Finland,Thor + persona della Finlandia,<a href="https://www.behindthename.com/name/th31o10rfinnr" target="_blank">Behind the name</a>
+28,Ragnarr,,Counsel/Gods + Army/Warrior,Consiglio/Dei + Esercito/Guerriero,<a href="https://old-norse.net/html/r.php#regin-II" target="_blank">Cleasby 1874 Online</a>; <a href="https://www.behindthename.com/name/ragnarr" target="_blank">Behind the name</a>
+29,Snorri,,attack/onslaught,attacco/assalto,<a href="https://old-norse.net/html/s.php#snerra" target="_blank">Cleasby 1874 Online</a>; <a href="https://www.behindthename.com/name/snorri" target="_blank">Behind the name</a>
+30,,Gudrun,God + rune,Dio + runa,<a href="https://www.behindthename.com/name/guth30ru10n" target="_blank">Behind the name</a>; <a href="https://old-norse.net/html/g.php#go%C3%B0-B-II"_blank">Cleasby 1874 Online</a>
+31,Gudbrandr,,God + sword,Dio + spada,<a href="https://www.behindthename.com/name/guth30brandr">Behind the name</a>; <a href="https://old-norse.net/html/g.php#go%C3%B0-B-II"_blank">Cleasby 1874 Online</a>
+32,Gudlaugr,Gudlaug,God + law,Dio + legge,<a href="https://old-norse.net/html/g.php#go%C3%B0-B-II"_blank">Cleasby 1874 Online</a>
+33,Gudleifr,Gudleif,God + inheritance,Dio + inheritance,<a href="https://www.behindthename.com/name/guth30leifr">Behind the name</a>; <a href="https://old-norse.net/html/g.php#go%C3%B0-B-II"_blank">Cleasby 1874 Online</a>
+34,Gudmundr,,God + protection,Dio + protezione,<a href="https://www.behindthename.com/name/guth30mundr">Behind the name</a>; <a href="https://old-norse.net/html/g.php#go%C3%B0-B-II"_blank">Cleasby 1874 Online</a>
+35,Gudrodr,,God + peace,Dio + pace,<a href="https://www.behindthename.com/name/guth30ro16th30r">Behind the name</a>; <a href="https://old-norse.net/html/g.php#go%C3%B0-B-II"_blank">Cleasby 1874 Online</a>
+36,Gudormr,,God + snake,Dio + serpente,<a href="https://www.behindthename.com/name/guth30ormr">Behind the name</a>; <a href="https://old-norse.net/html/g.php#go%C3%B0-B-II"_blank">Cleasby 1874 Online</a>
+37,,Gudfinna,God + laplander,Dio + lappone,<a href="https://www.behindthename.com/name/guth30finna/submitted">Behind the name</a>; <a href="https://old-norse.net/html/g.php#go%C3%B0-B-II"_blank">Cleasby 1874 Online</a>
+38,,Gudny,New God,Nuovo Dio,<a href="https://www.behindthename.com/name/guth30ny10/submitted">Behind the name</a>; <a href="https://old-norse.net/html/g.php#go%C3%B0-B-II"_blank">Cleasby 1874 Online</a>
+39,,Gudridr,God + Beautiful/Beloved,Dio + Bellissima/Amata,<a href="https://www.behindthename.com/name/guth30ny10/submitted">Behind the name</a>; <a href="https://old-norse.net/html/g.php#go%C3%B0-B-II"_blank">Cleasby 1874 Online</a>
+40,Agni,,Fear,Paura,<a href="https://www.behindthename.com/name/agni-3">Behind the name</a>
+41,,Skjalf,To shake,Scuotere,<a href="https://www.behindthename.com/name/skjalf/submitted">Behind the name</a>
+42,Bjarni,,Diminutive of Bjorn (Bear),Diminutivo di Bjorn (Orso),<a href="https://www.behindthename.com/name/bjarni">Behind the name</a>; <a href="https://old-norse.net/html/b.php#bj%C3%B6rn2">Cleasby 1874 Online</a>
+43,Thorbjorn,,Thunder + bear,Tuono + orso,<a href="https://www.behindthename.com/name/th31orbjo12rn">Behind the name</a>; <a href="https://old-norse.net/html/b.php#bj%C3%B6rn2">Cleasby 1874 Online</a>
