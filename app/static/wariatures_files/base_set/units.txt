@@ -27,7 +27,7 @@ number,name
 26,Tirannosauro  
 27,Dretch  
 28,Slaad della morte  
-29,Verme del deserto  
+29,Verme purpureo
 30,Treant  
 31,Licantropo  
 32,Worg  
