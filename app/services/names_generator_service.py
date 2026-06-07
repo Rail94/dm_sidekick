@@ -18,6 +18,48 @@ def get_name(path):
 	except FileNotFoundError as e:
 		return "File not found!"
 
+def get_standard_list(species, gender):
+	if gender == "male":
+		species_path = species.replace("_male", "")
+	else:
+		species_path = species.replace("_female", "")
+
+	path = f"{folder}{name_types['dnd_base']}/{species_path}{extension}"
+
+	try:
+		with open(path, 'r', encoding='utf-8') as f:
+			reader = list(csv.DictReader(f, delimiter=','))
+			for row in reader:
+				if gender == "male":
+					row.pop("female", None)
+				else:
+					row.pop("male", None)
+
+			return reader
+	except FileNotFoundError as e:
+		return "File not found!"
+
+
+def get_norse_list(species, gender):
+	if gender == "male":
+		species_path = species.replace("_male", "")
+	else:
+		species_path = species.replace("_female", "")
+
+	path = f"{folder}{name_types['norse']}/{species_path}{extension}"
+
+	try:
+		with open(path, 'r', encoding='utf-8') as f:
+			reader = list(csv.DictReader(f, delimiter=','))
+			filtered = [
+				row for row in reader
+				if (gender == "male" and row.get("male")) or
+				   (gender == "female" and row.get("female"))
+			]
+			return filtered
+	except FileNotFoundError as e:
+		return "File not found!"
+
 def generate_standard(species, gender):
 	if gender == "male":
 		species_path = species.replace("_male", "")

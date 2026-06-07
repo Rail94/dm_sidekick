@@ -8,7 +8,7 @@ id,male,female,meaning_en,meaning_it,source
 7,,Indridi,the great rider,un gran cavalcatore,<a href="https://old-norse.net/html/e.php#einri%C3%B0i" target="_blank">Cleasby 1874 Online</a>
 8,Kolgrimr,,kol (Coal black) + gríma (Mask),kol(Nero carbone) + gríma (Maschera),Cleasby 1874.
 9,Skeifr,,oblique,obliquo,Cleasby 1874:543; De Vries 2000:488; Köbler 2014:131.
-10,Styrmir,,to storm,colui che causa tempeste,<a href="https://www.behindthename.com/name/styrmir/submitted" target="_blank">Behind the name</a>
+10,Styrmir,,to storm,colui che causa tempeste,<a href="https://www.behindthename.com/name/styrmir" target="_blank">Behind the name</a>
 11,,Thorbjorg,Thunder + salvation, Tuono + salvezza,<a href="https://www.behindthename.com/name/th31orbjo12rg">Behind the name</a>; <a href="https://old-norse.net/html/b.php#bj%C3%B6rg-3"_blank">Cleasby 1874 Online</a>
 12,,Ingibjorg,Ancestor + salvation,Antenato + salvezza,<a href="https://www.behindthename.com/name/ingibjo12rg">Behind the name</a>; <a href="https://old-norse.net/html/b.php#bj%C3%B6rg-3"_blank">Cleasby 1874 Online</a>
 13,,Gudbjorg,God + salvation,Dio + salvezza,<a href="https://old-norse.net/html/b.php#bj%C3%B6rg-3"_blank">Cleasby 1874 Online</a>
