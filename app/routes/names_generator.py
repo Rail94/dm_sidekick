@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request, redirect, url_for
-from app.services.names_generator_service import generate_standard, generate_norse
+from app.services.names_generator_service import generate_standard, generate_norse, get_norse_list, get_standard_list
 
 names_bp = Blueprint('names', __name__)
 
@@ -90,3 +90,56 @@ def generate_norse_name():
         )
     except Exception as e:
         return redirect(url_for('names.names', msg="An error occurred!"))
+
+@names_bp.route('/name_lists')
+def name_lists():
+    msg = request.args.get('msg')
+
+    return render_template('name_lists.html', title="Names list", types=types, species=species, norse=norse, msg=msg)
+
+@names_bp.route('/standard_list')
+def standard_list():
+    try:
+        msg = request.args.get('msg')
+        standard_species = request.args.get('standardSpecies')
+
+        if "_male" in standard_species:
+            gender = "male"
+        else:
+            gender = "female"
+
+        list = get_standard_list(standard_species, gender)
+
+        return render_template(
+            'name_lists.html',
+            title="Names list",
+            species=species,
+            norse=norse,
+            list=list,
+            msg=msg
+        )
+    except Exception as e:
+        return redirect(url_for('names.name_lists', msg="An error occurred!"))
+
+@names_bp.route('/norse_list')
+def norse_list():
+    try:
+        msg = request.args.get('msg')
+        norse_species = request.args.get('norseSpecies')
+
+        if "_male" in norse_species:
+            gender = "male"
+        else:
+            gender = "female"
+
+        list = get_norse_list(norse_species, gender)
+        return render_template(
+            'name_lists.html',
+            title="Names list",
+            species=species,
+            norse=norse,
+            list=list,
+            msg=msg
+        )
+    except Exception as e:
+        return redirect(url_for('names.name_lists', msg="An error occurred!"))

@@ -7,17 +7,35 @@
 <div class="d-flex justify-content-center">
 
     <form id="initiative-form" class="mb-4 text-center">
+        <div class="mb-4 text-center">
+
+            <div class="mb-3">
+                <label for="mode" class="form-label fw-bold">Mode</label>
+                <select id="mode" class="form-select w-50 mx-auto" onchange="toggleInitiative()">
+                    <option value="auto" selected>Auto</option>
+                    <option value="manual">Manual</option>
+                </select>
+            </div>
+
+            <div class="mb-3 d-none" id="initiative-container">
+                <label for="initiative" class="form-label fw-bold">Initiative</label>
+                <input type="number" class="form-control w-50 mx-auto" id="initiative" name="initiative"
+                    placeholder="Initiative">
+            </div>
+
+        </div>
         <div class="mb-3">
             <label for="name" class="form-label fw-bold">Name</label>
             <input type="text" class="form-control" id="name" name="name" maxlength="15" required>
         </div>
         <div class="mb-3">
             <label for="bonus-initiative" class="form-label fw-bold">Bonus Initiative</label>
-            <input type="number" class="form-control" id="bonus-initiative" name="bonus-initiative" placeholder="0">
+            <input type="number" class="form-control" id="bonus-initiative" name="bonus-initiative"
+                placeholder="Default: 0">
         </div>
         <div class="mb-3">
-            <label for="hp" class="form-label fw-bold">HP</label>
-            <input type="number" min="0" max="9999" class="form-control" id="hp" name="hp" placeholder="0">
+            <label for="hp" class="form-label fw-bold">Hit Points</label>
+            <input type="number" min="0" max="9999" class="form-control" id="hp" name="hp" placeholder="Default: 0">
         </div>
         <div class="mb-3">
             <label for="quantity" class="form-label fw-bold">Quantity</label>
@@ -43,7 +61,7 @@
             <tr>
                 <th class="bg-dark text-white">Initiative</th>
                 <th class="bg-dark text-white">Name</th>
-                <th class="bg-dark text-white">HP</th>
+                <th class="bg-dark text-white">Hit Points</th>
             </tr>
         </thead>
         <tbody>

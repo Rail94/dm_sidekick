@@ -101,11 +101,41 @@ function rollInitiative() {
         e.preventDefault();
 
         const { name, bonus } = getValues();
-        const initiative = rollDice(bonus);
-        appendRow(name, initiative, bonus);
+        const mode = document.getElementById("mode").value;
 
+        let initiative;
+
+        if (mode === "manual") {
+
+            initiative = parseInt(document.getElementById("initiative").value) + bonus;
+
+            if (isNaN(initiative)) {
+                alert("Insert initiative value!");
+                return;
+            }
+
+        } else {
+            initiative = rollDice(bonus);
+        }
+
+        if (initiative < 1) {
+            initiative = 1;
+        }
+
+        if (initiative > 99) {
+            initiative = 99;
+        }
+
+        appendRow(name, initiative, bonus);
         sortTable();
-        this.reset();
+
+        document.getElementById("name").value = "";
+        document.getElementById("bonus-initiative").value = "";
+        document.getElementById("hp").value = "";
+        document.getElementById("quantity").value = 1;
+        document.getElementById("initiative").value = "";
+
+        toggleInitiative();
     });
 }
 
@@ -140,3 +170,21 @@ document.addEventListener('DOMContentLoaded', () => {
     rollInitiative();
     rerollAll();
 });
+
+function toggleInitiative() {
+
+    const mode = document.getElementById("mode").value;
+    const container = document.getElementById("initiative-container");
+    const input = document.getElementById("initiative");
+
+    if (mode === "manual") {
+        container.classList.remove("d-none");
+        input.disabled = false;
+    } else {
+        container.classList.add("d-none");
+        input.disabled = true;
+        input.value = "";
+    }
+}
+
+document.getElementById("initiative").disabled = true;

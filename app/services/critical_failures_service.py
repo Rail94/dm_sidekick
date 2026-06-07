@@ -17,11 +17,6 @@ def random_animal():
     animal = animals[select]
     return animal
 
-def lingering_injuries():
-    injuries = {
-        'Lose an eye'
-    }
-
 def random_saving_throw():
     base = 10
     roll = random.randint(1,10)

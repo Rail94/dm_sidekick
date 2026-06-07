@@ -11,3 +11,22 @@ document.addEventListener("DOMContentLoaded", () => {
     setupTab("speciesSelect", "generateBtn");
     setupTab("speciesSelectNorse", "generateBtnNorse", "norse");
 });
+
+function filterTable() {
+
+    const input = document.getElementById("searchInput");
+    const filter = input.value.toLowerCase();
+
+    const rows = document.querySelectorAll("tbody tr");
+
+    rows.forEach(row => {
+
+        const text = row.innerText.toLowerCase();
+
+        if (text.includes(filter)) {
+            row.style.display = "";
+        } else {
+            row.style.display = "none";
+        }
+    });
+}
