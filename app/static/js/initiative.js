@@ -1,14 +1,5 @@
 let rotation = 0;
 
-const button = document.getElementById("rotateButton");
-
-button.addEventListener("click", () => {
-    rotation += 360;
-    button.style.transform = `rotate(${rotation}deg)`;
-    button.style.transition = 'transform 0.6s ease';
-    roundIncrement();
-});
-
 function roundIncrement() {
     let roundSpan = document.getElementById('round');
     const currentRound = parseInt(roundSpan.textContent);
@@ -64,8 +55,14 @@ function appendRow(name, initiative) {
         newRow.setAttribute("data-group", groupId);
 
         newRow.innerHTML = `
-    <td>${initiative}</td>
-    <td style='cursor: pointer;' 
+     <td>
+        <input
+            type="number"
+            class="small-input"
+            name="initiative[]"
+            value="${initiative}">
+    </td>
+    <td style='cursor: pointer;'
         onclick="this.classList.toggle('strikethrough')" 
         data-bonus="${document.getElementById('bonus-initiative').value}">
         ${displayName}
@@ -81,19 +78,31 @@ function appendRow(name, initiative) {
     }
 }
 
-
 function sortTable() {
     const tbody = document.querySelector('#initiative-table tbody');
     const rows = Array.from(tbody.querySelectorAll('tr'));
 
     rows.sort((a, b) => {
-        const aVal = parseInt(a.children[0].textContent);
-        const bVal = parseInt(b.children[0].textContent);
+        const aVal = parseInt(a.children[0].querySelector('input').value) || 0;
+        const bVal = parseInt(b.children[0].querySelector('input').value) || 0;
         return bVal - aVal;
     });
 
     tbody.innerHTML = '';
     rows.forEach(row => tbody.appendChild(row));
+}
+
+function sortDescending() {
+    const tbody = document.querySelector('#initiative-table tbody');
+    const rows = Array.from(tbody.querySelectorAll('tr'));
+
+    rows.sort((a, b) => {
+        const aVal = parseInt(a.children[0].querySelector('input').value) || 0;
+        const bVal = parseInt(b.children[0].querySelector('input').value) || 0;
+        return bVal - aVal;
+    });
+
+    tbody.append(...rows);
 }
 
 function rollInitiative() {
@@ -106,8 +115,7 @@ function rollInitiative() {
         let initiative;
 
         if (mode === "manual") {
-
-            initiative = parseInt(document.getElementById("initiative").value) + bonus;
+            initiative = (parseInt(document.getElementById("initiative").value) || 1) + bonus;
 
             if (isNaN(initiative)) {
                 alert("Insert initiative value!");
@@ -154,9 +162,8 @@ function rerollAll() {
                 groups[groupId] = rollDice(bonus);
             }
 
-            row.children[0].textContent = groups[groupId];
+            row.children[0].querySelector('input').value = groups[groupId];
         });
-
         sortTable();
     });
 }
@@ -166,25 +173,37 @@ function deleteRow(button) {
     row.remove();
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    rollInitiative();
-    rerollAll();
-});
-
 function toggleInitiative() {
 
     const mode = document.getElementById("mode").value;
     const container = document.getElementById("initiative-container");
     const input = document.getElementById("initiative");
+    const bonusInitiative = document.getElementById("bonus-initiative-container");
 
     if (mode === "manual") {
         container.classList.remove("d-none");
         input.disabled = false;
+        bonusInitiative.classList.add("d-none");
     } else {
         container.classList.add("d-none");
         input.disabled = true;
         input.value = "";
+        bonusInitiative.classList.remove("d-none");
     }
 }
 
-document.getElementById("initiative").disabled = true;
+document.addEventListener('DOMContentLoaded', () => {
+    const button = document.getElementById("rotateButton");
+
+    button.addEventListener("click", () => {
+        rotation += 360;
+        button.style.transform = `rotate(${rotation}deg)`;
+        button.style.transition = 'transform 0.6s ease';
+        roundIncrement();
+    });
+
+    rollInitiative();
+    rerollAll();
+    document.getElementById("initiative").disabled = true;
+    document.getElementById('sortButton').addEventListener('click', sortDescending);
+});
